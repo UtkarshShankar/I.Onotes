@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UserScreen"
+    android:orientation="vertical">
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:padding="20dp"-->
+<!--        android:background="#ff781f">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/common_profile_image"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:src="@drawable/download"-->
+<!--            android:layout_centerVertical="true"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/full_name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/alex_brush"-->
+<!--            android:text="Full Name "-->
+<!--            android:textSize="50sp"-->
+<!--            android:layout_toRightOf="@+id/common_profile_image"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:includeFontPadding="false"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/User_name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_toRightOf="@+id/common_profile_image"-->
+<!--            android:fontFamily="sans-serif"-->
+<!--            android:text="User Name"-->
+<!--            android:includeFontPadding="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:layout_below="@+id/full_name"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+
+<!--    </RelativeLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="20dp"-->
+<!--        android:layout_marginTop="-100dp">-->
+<!--        <com.google.android.material.card.MaterialCardView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:background="#ffa500"-->
+<!--            app:cardElevation="10dp">-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:padding="5dp">-->
+<!--                <ImageView-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:src="@drawable/cases_icon"-->
+<!--                    android:layout_centerHorizontal="true"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/cases"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:fontFamily="casual"-->
+<!--                    android:includeFontPadding="false"-->
+<!--                    android:text="3"-->
+<!--                    android:textSize="25sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/cases_1"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/cases"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:fontFamily="sans-serif-condensed-medium"-->
+<!--                    android:includeFontPadding="false"-->
+<!--                    android:text="Active Cases"-->
+<!--                    android:textSize="25sp" />-->
+<!--            </RelativeLayout>-->
+
+<!--        </com.google.android.material.card.MaterialCardView>-->
+<!--        <com.google.android.material.card.MaterialCardView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:background="ffa500"-->
+<!--            app:cardElevation="10dp">-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:padding="5dp">-->
+<!--                <ImageView-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:src="@drawable/files"-->
+<!--                    android:layout_centerHorizontal="true"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Number_cases"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:fontFamily="@font/adamina"-->
+<!--                    android:text="5"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:includeFontPadding="false"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Total_cases"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/Number_cases"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:fontFamily="sans-serif-condensed"-->
+<!--                    android:includeFontPadding="false"-->
+<!--                    android:text="Total Cases"-->
+<!--                    android:textSize="25sp" />-->
+<!--            </RelativeLayout>-->
+
+<!--        </com.google.android.material.card.MaterialCardView>-->
+
+<!--    </LinearLayout>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Screen"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        />
+</LinearLayout>
